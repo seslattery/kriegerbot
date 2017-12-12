@@ -11,7 +11,8 @@ config :kreigerbot, Kreigerbot.Robot,
   responders: [
     {Hedwig.Responders.Help, []},
     {Hedwig.Responders.Ping, []},
-    {Kriegerbot.Responders.Phrasing, []}
+    {Kriegerbot.Responders.Phrasing, []},
+    {Kriegerbot.Responders.Dice, []}
   ]
 
 
